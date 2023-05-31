@@ -1,0 +1,33 @@
+
+<div class="addheader">
+    <h2>
+    Add Student Detail
+</h2>
+</div>
+{{#if msg}}
+<div class="alert">{{msg}}</div>
+{{/if}}
+
+<div class="form-align">
+    <form method="post" action="/adduser">
+<div class="form-group">
+    <label for="name" >Name</label>
+    <input type="text" placeholder="Enter Name" name="name">
+</div>
+<div class="form-group">
+    <label for="name">Age</label>
+    <input type="text" placeholder="Enter Age" name="age">
+</div>
+<div class="form-group">
+    <label for="name">City</label>
+    <input type="text" placeholder="Enter City" name="city">
+</div>
+<div class="form-group">
+    <button  class="form-group-btn" type="submit">Save Details</button>
+    <a href="/">View All</a>
+</div>
+
+</form>
+</div>
+
+
